@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MealPlan /> should render MealPlanResend when showResend = true 1`] = `
+"<div className=\\"container\\">
+  <MealPlanHeader />
+  <MealPlanResend onClose={[Function: onClose]} />
+  <MealPlanGrid />
+</div>"
+`;
+
+exports[`<MealPlan /> should render correctly 1`] = `
+"<div className=\\"container\\">
+  <MealPlanHeader />
+  <MealPlanGrid />
+</div>"
+`;

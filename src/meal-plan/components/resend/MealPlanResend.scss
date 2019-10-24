@@ -1,0 +1,16 @@
+.meal-plan-resend {
+  text-align: center;
+
+  &__form {
+    width: 340px;
+    margin: 0 auto;
+
+    .input {
+      margin-top: 12px;
+    }
+
+    .btn {
+      margin-top: 24px;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+@import '../node_modules/reset-css/sass/reset';
+@import 'src/styles/variables';
+@import 'src/styles/inputs';
+@import 'src/styles/buttons';
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  background: $main_bg;
+  color: $main_text;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.container {
+  max-width: 1100px;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin-left: auto;
+  margin-right: auto;
+}

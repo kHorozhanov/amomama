@@ -1,0 +1,26 @@
+.input {
+  background: $white;
+  border: 1px solid $fog;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 48px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  ::-webkit-input-placeholder {
+    color: $second_text;
+  }
+
+  :-ms-input-placeholder {
+    color: $second_text;
+  }
+
+  ::placeholder {
+    color: $second_text;
+  }
+
+  &--has-error {
+    border-color: red;
+  }
+}

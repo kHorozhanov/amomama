@@ -1,0 +1,15 @@
+.btn {
+  height: 60px;
+  border-radius: 50px;
+  width: 100%;
+  border: none;
+  &__success {
+    background: $success;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    color: $white;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 600;
+  }
+}
